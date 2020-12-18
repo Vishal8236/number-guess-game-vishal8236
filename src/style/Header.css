@@ -1,0 +1,11 @@
+.container-head{
+    margin: 20px;
+}
+.head-title{
+    border-radius: 15px;
+    background-color: rgb(220, 232, 241);
+    text-align: center;
+    padding: 15px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

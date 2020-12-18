@@ -1,0 +1,194 @@
+.dashboard{
+    text-align: center;
+    margin: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 20px;
+    background: #085078;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.top-content{
+    padding: 25px;
+}
+.top-content >span{
+    background-color: rgb(247, 225, 197);
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.input-box{
+    padding: 25px;
+}
+.input-box > input{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 15px;
+    outline: none;
+}
+.button-box{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+.check-button >button{
+    border: none;
+    background-color: rgb(134, 205, 207);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+}
+.restart-button >button{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: darkseagreen;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+}
+
+
+/* hint box css start */
+.hint-box{
+    text-align: center;
+    padding-left: 24%;
+}
+.find{
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+    padding: 23px;
+    background-color: rgb(14, 110, 219);
+}
+.high{
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+    padding: 23px;
+    background-color: teal;
+}
+.low{
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+    padding: 23px;
+    background-color: red;
+}
+.find >span{
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.high >span{
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.low >span{
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.high-logo{
+    color: white;
+}
+.high-text{
+    padding-top: 3px;
+    color: white;
+}
+.low-logo{
+    color: white;
+}
+.low-text{
+    padding-top: 3px;
+    color: white;
+}
+.find-logo{
+    color: white;
+}
+
+.find-text{
+    padding-top: 3px;
+    color: white;
+}
+
+/* now at the point history css start */
+.history-box{
+    padding: 20px;
+    width: 620px;
+    padding-left: 30%;
+}
+.in-his{
+    border: 1px solid black;
+}
+.in-his >li{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    list-style-type: none;
+    background-color: rgb(235, 233, 229);
+}
+
+
+/* at this point performace css code start */
+
+.perfomance{
+    text-align: center;
+}
+.in-perfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.life-line{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+.life-line>span{
+    font-size: 25px;
+}
+.star > .MuiSvgIcon-root	{
+    color: rgb(194, 194, 28);
+    font-size: 45px; 
+}
+.score {
+    padding-top: 12px;
+}
+.score >span{
+    font-size: 25px;
+}
